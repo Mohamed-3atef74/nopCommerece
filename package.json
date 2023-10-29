@@ -1,0 +1,21 @@
+{
+  "name": "nopcommerece",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run": "npx cypress run --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.6",
+    "@cypress/browserify-preprocessor": "latest",
+    "cypress": "^13.3.3",
+    "password-generator-js-tool": "^1.0.3",
+    "random-email": "^1.0.3"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.6.1"
+  }
+}
