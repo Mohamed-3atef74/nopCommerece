@@ -23,7 +23,7 @@ module.exports = defineConfig({
     excludeSpecPattern: ["**/utils/**"],
     supportFile: "cypress/support/e2e.{js,jsx,ts,tsx}",
     screenshotOnRunFailure: false,
-    video: false,
+    video:true,
     watchForFileChanges: false,
     defaultCommandTimeout:6000
   },
